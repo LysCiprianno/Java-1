@@ -4,17 +4,25 @@ Este é um simples projeto de **Caixa Eletrônico** em Java. O código implement
 
 O código simula o comportamento de um caixa eletrônico com várias funcionalidades, e foi feito com o objetivo de praticar conceitos como controle de fluxo, manipulação de dados e validação de entradas no Java.
 
+
 ## Funcionalidades
 
 - **Criar Conta**: O usuário pode criar uma conta, fornecendo um número fictício de conta.
+
 - **Consultar Saldo**: O usuário pode consultar seu saldo, mas apenas após inserir a senha correta.
+
 - **Extrato**: O sistema mantém um extrato de todas as operações realizadas, como saques, depósitos e transferências.
+
 - **Saque**: O usuário pode realizar saques, com algumas validações de segurança:
   - O valor do saque não pode ser menor ou igual a zero.
   - O valor do saque não pode ser maior que o saldo disponível.
+
 - **Depósito**: O usuário pode realizar depósitos, mas o valor não pode ser menor ou igual a zero.
+
 - **Transferência**: O usuário pode transferir dinheiro para outra conta. A transferência tem as mesmas validações do saque, ou seja, o valor deve ser maior que zero e não pode exceder o saldo.
+
 - **Senha de Acesso**: Para realizar algumas operações (como consultar saldo, realizar saques, transferências e ver o extrato), o usuário precisa inserir uma senha. A senha padrão é **3589**.
+
 
 ## Como Funciona?
 
